@@ -1,7 +1,6 @@
-layout: sidebar
-style: light
 
-repository: yin-n/yin-n.github.io/
+
+repository: yin-n/yin-n.github.io
 plugins:
   - jekyll-octicons
   - jekyll-github-metadata
