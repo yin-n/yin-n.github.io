@@ -1,9 +1,8 @@
 ---
 layout: post
-category:job search
+category: projects
 ---
-
-Job search
+Job search:
 
 - [Table of contents](#table-of-contents)
 - [The start](#the-start)

@@ -10,21 +10,45 @@ entries:
       - title: "e-mail"
         url: mailto:yy4669@nyu.edu
 
+  - title: all internship
+    entries:
+      - title: aoi development(apple)
+        url: apple
+      - title: real-time system(intel)
+        url: intel1
+      - title: indoor positioning system(intel)
+        url: intel2
 
   - title: all projects
+    entries:
+      - title: night2day vision enhance
+        url: nigh2day
+      - title: job search
+        url: jobsearch
+
+      
+  - title: research
+    entries:
+      - title: deep multual knowledge distill
+        url: deep
+
+      - title: emotion calssifierrr
+        url: emotion
+
+  - title: original
     post_list:
-      limit: 5
       show_more: true
       show_more_text: See archive...
       show_more_url: archive.html
 
-  - title: posts by category
+  - title: category list
     post_list:
-      category: example2
+      category: projects
       show_more: true
       show_more_text: See more posts...
       show_more_url: example2-archive.html
 
+ 
   - title: rss
     url: feed.xml
   

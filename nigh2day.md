@@ -1,7 +1,6 @@
 ---
 layout: post
 slug: nigh2day
+category: projects
 ---
-Night2Day
-
 Enhance night vision to day vison
