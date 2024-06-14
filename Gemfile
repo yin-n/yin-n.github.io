@@ -1,6 +1,7 @@
-source 'https://rubygems.org'
-gem 'github-pages', group: :jekyll_plugins
-gem "jekyll-github-metadata"
-gem "jekyll-octicons"
-gem "jemoji"
-gem "no-style-please"
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+gem "kramdown-parser-gfm"
+
+gemspec
