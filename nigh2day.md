@@ -1,8 +1,10 @@
-## Night Vision Enhancement App
-
+---
+layout: page
+title: Night Vision Enhancement App
+---
 ### Intro
 
-In this project we use cycleGAN to generate day images based on night images in real-time. We also developed an Android app for this project. It could be used on PC, mobile phones and AR glasses.
+In this project, we use CycleGAN and FeatureGAN to generate day images based on night images in real-time. We also developed an Android app for this project. It can be used on PCs, mobile phones, and AR glasses.
 
 ### Demo
 
@@ -34,7 +36,7 @@ In this project we use cycleGAN to generate day images based on night images in 
   <img src="image/nigh2day/1718831683382.png" alt="1718831683382" style="zoom:50%;" />
 </div>
 
-<p>
+<div style="text-align: center;">
     <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" style="width:20px; vertical-align:middle;" />
-    <a href="https://github.com/SilenceMonk/Night-Vision-Enhancement-App-for-AR-devices" style="margin-left: 10px; vertical-align: middle;">Night Vision Enhancement App for AR devices</a>
-</p>
+    <a href="https://github.com/SilenceMonk/Night-Vision-Enhancement-App-for-AR-devices">Night Vision Enhancement App for AR devices</a>
+</div>

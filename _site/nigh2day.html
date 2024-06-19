@@ -7,7 +7,7 @@
 
   <title>Yuejia Yin</title><!-- Begin Jekyll SEO tag v2.7.1 -->
 <meta name="generator" content="Jekyll v3.9.0" />
-<meta property="og:title" content="Yuejia Yin" />
+<meta property="og:title" content="Night Vision Enhancement App" />
 <meta name="author" content="Yuejia Yin" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="A (nearly) no-CSS, fast, minimalist Jekyll theme." />
@@ -16,25 +16,83 @@
 <meta property="og:url" content="http://localhost:4000/nigh2day" />
 <meta property="og:site_name" content="Yuejia Yin" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Yuejia Yin" />
+<meta property="twitter:title" content="Night Vision Enhancement App" />
 <script type="application/ld+json">
-{"url":"http://localhost:4000/nigh2day","headline":"Yuejia Yin","author":{"@type":"Person","name":"Yuejia Yin"},"description":"A (nearly) no-CSS, fast, minimalist Jekyll theme.","@type":"WebPage","@context":"https://schema.org"}</script>
+{"url":"http://localhost:4000/nigh2day","headline":"Night Vision Enhancement App","author":{"@type":"Person","name":"Yuejia Yin"},"description":"A (nearly) no-CSS, fast, minimalist Jekyll theme.","@type":"WebPage","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Yuejia Yin" /><link rel="shortcut icon" type="image/x-icon" href="/logo.png" />
   <link rel="stylesheet" href="/assets/css/main.css" />
 </head><body a="auto">
     <main class="page-content" aria-label="Content">
       <div class="w">
-        <a href="/">..</a><article>
-  <p class="post-meta">
-    <time datetime=""></time>
-  </p>
-  
-  <h1></h1>
+        <a href="/">..</a><h1>Night Vision Enhancement App</h1>
 
-  <p>Enhance night vision to day vison</p>
+<h3 id="intro">Intro</h3>
 
-</article>
+<p>In this project, we use CycleGAN and FeatureGAN to generate day images based on night images in real-time. We also developed an Android app for this project. It can be used on PCs, mobile phones, and AR glasses.</p>
+
+<h3 id="demo">Demo</h3>
+
+<div style="text-align: center;">
+    <img src="image/nigh2day/1718830888833.png" alt="1718830888833" style="zoom:30%;" />
+    <img src="image/nigh2day/1718830901662.png" alt="1718830901662" style="zoom:20%;" />
+</div>
+
+<h3 id="methods">Methods</h3>
+
+<ul>
+  <li>Multi-Scale FFT Semantic Extractor</li>
+</ul>
+
+<div style="text-align: center;">
+  <img src="image/nigh2day/1718831357179.png" alt="1718831357179" style="zoom:20%;" />
+</div>
+<ul>
+  <li>Core algorithms</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Core Techniques</strong></th>
+      <th><strong>Advantages</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CycleGAN+featureGAN</td>
+      <td>After enhancement, the original image features can still be retained.</td>
+    </tr>
+    <tr>
+      <td>Multi- scale FFT semantic extractor (novel）</td>
+      <td>Introduce loss function in the image frequency domain to improve semantic consistency.</td>
+    </tr>
+    <tr>
+      <td>Compress the model via once-for-all algorithm.</td>
+      <td>Cut unnecessary connections in the model, greatly reduce the computing resources occupied by the model, and can run on platforms such as mobile phones and AR glasses.</td>
+    </tr>
+    <tr>
+      <td>Complete mobile platform tensor and image conversion API (novel)</td>
+      <td>Real-time transform the tensors output by the model into images on the mobile side and enhance the images.</td>
+    </tr>
+    <tr>
+      <td>Danger warning</td>
+      <td>Frame nearby dangerous vehicles in red via object recognition model and depth estimation algorithm.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="results">Results</h3>
+
+<div style="text-align: center;">
+  <img src="image/nigh2day/1718831683382.png" alt="1718831683382" style="zoom:50%;" />
+</div>
+
+<div style="text-align: center;">
+    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" style="width:20px; vertical-align:middle;" />
+    <a href="https://github.com/SilenceMonk/Night-Vision-Enhancement-App-for-AR-devices">Night Vision Enhancement App for AR devices</a>
+</div>
+
       </div>
     </main>
   </body>
