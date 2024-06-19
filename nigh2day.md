@@ -1,9 +1,4 @@
----
-layout: post
-slug: nigh2day
-category: projects
----
-### Enhance night vision to day vison
+## Night Vision Enhancement App
 
 ### Intro
 
@@ -12,8 +7,8 @@ In this project we use cycleGAN to generate day images based on night images in 
 ### Demo
 
 <div style="text-align: center;">
-    <img src="image/nigh2day/1718830888833.png" alt="1718830888833" style="zoom:50%;" />
-    <img src="image/nigh2day/1718830901662.png" alt="1718830901662" style="zoom:30%;" />
+    <img src="image/nigh2day/1718830888833.png" alt="1718830888833" style="zoom:30%;" />
+    <img src="image/nigh2day/1718830901662.png" alt="1718830901662" style="zoom:20%;" />
 </div>
 
 ### Methods
@@ -38,4 +33,8 @@ In this project we use cycleGAN to generate day images based on night images in 
 <div style="text-align: center;">
   <img src="image/nigh2day/1718831683382.png" alt="1718831683382" style="zoom:50%;" />
 </div>
-<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" style="zoom:5%;" />: https://github.com/SilenceMonk/Night-Vision-Enhancement-App-for-AR-devices
+
+<p>
+    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" style="width:20px; vertical-align:middle;" />
+    <a href="https://github.com/SilenceMonk/Night-Vision-Enhancement-App-for-AR-devices" style="margin-left: 10px; vertical-align: middle;">Night Vision Enhancement App for AR devices</a>
+</p>
