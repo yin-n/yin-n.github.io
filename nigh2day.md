@@ -3,7 +3,7 @@ layout: post
 slug: nigh2day
 category: projects
 ---
-## Enhance night vision to day vison
+### Enhance night vision to day vison
 
 ### Intro
 
@@ -34,6 +34,8 @@ In this project we use cycleGAN to generate day images based on night images in 
 | Danger warning                                                   | Frame nearby dangerous vehicles in red via object recognition model and depth estimation algorithm.                                                                    |
 
 ### Results
+
 <div style="text-align: center;">
   <img src="image/nigh2day/1718831683382.png" alt="1718831683382" style="zoom:50%;" />
 </div>
+<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" style="zoom:5%;" />: https://github.com/SilenceMonk/Night-Vision-Enhancement-App-for-AR-devices
