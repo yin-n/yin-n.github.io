@@ -7,7 +7,7 @@
 
   <title>Yuejia Yin</title><!-- Begin Jekyll SEO tag v2.7.1 -->
 <meta name="generator" content="Jekyll v3.9.0" />
-<meta property="og:title" content="Yuejia Yin" />
+<meta property="og:title" content="Mathematical characterization of physiological response to eight human emotions" />
 <meta name="author" content="Yuejia Yin" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="A (nearly) no-CSS, fast, minimalist Jekyll theme." />
@@ -16,18 +16,102 @@
 <meta property="og:url" content="http://localhost:4000/emotion" />
 <meta property="og:site_name" content="Yuejia Yin" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Yuejia Yin" />
+<meta property="twitter:title" content="Mathematical characterization of physiological response to eight human emotions" />
 <script type="application/ld+json">
-{"url":"http://localhost:4000/emotion","headline":"Yuejia Yin","author":{"@type":"Person","name":"Yuejia Yin"},"description":"A (nearly) no-CSS, fast, minimalist Jekyll theme.","@type":"WebPage","@context":"https://schema.org"}</script>
+{"url":"http://localhost:4000/emotion","headline":"Mathematical characterization of physiological response to eight human emotions","author":{"@type":"Person","name":"Yuejia Yin"},"description":"A (nearly) no-CSS, fast, minimalist Jekyll theme.","@type":"WebPage","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Yuejia Yin" /><link rel="shortcut icon" type="image/x-icon" href="/logo.png" />
   <link rel="stylesheet" href="/assets/css/main.css" />
 </head><body a="auto">
     <main class="page-content" aria-label="Content">
       <div class="w">
-        <a href="/">..</a><h1></h1>
+        <a href="/">..</a><h1>Mathematical characterization of physiological response to eight human emotions</h1>
 
+<h3 id="intro">Intro</h3>
 
+<p>Emotions are some strange but also beautiful things for human beings. It could generate art but also even hurt human beings. So, in our projects, we want to use the physiology of human beings(electrodermal signal) to figure out more about emotions.</p>
+
+<h3 id="methods">Methods</h3>
+
+<div style="text-align: center;">
+    <img src="image/emotion/1718901312809.png" alt="Descriptive Alt Text" />
+</div>
+
+<ul>
+  <li><strong>Sweat secretion model</strong></li>
+</ul>
+
+<div style="text-align: center;">
+  <img src="image/emotion/1718901411747.png" alt="1718901411747" style="zoom:60%;" />
+</div>
+<p>The sweat secretion will affect the skin conductance measurement. So we built our model based on the sweat secretion model.</p>
+
+<p>The state space model is :</p>
+
+<div style="text-align: center;">
+  <img src="image/emotion/1718902066676.png" alt="1718902066676" style="zoom:33%;" />
+</div>
+
+<ul>
+  <li><strong>Parameter Estimation</strong>(Expectation Maximization)
+    <ul>
+      <li>E-step</li>
+      <li>M-step</li>
+      <li>Parameter Re-estimation
+        <ul>
+          <li><strong>Re-estimate Window</strong> Setting</li>
+          <li><strong>Random Gaussian Initialization</strong> with selected Mean and Variance for each arousal event</li>
+          <li><strong>Setting</strong> Θ3 as a constant, and then re-estimate Θ1 and Θ2</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<div style="text-align: center;">
+  <img src="image/emotion/1718904109351.png" alt="1718904109351" style="zoom:30%;" />`
+</div>
+
+<h3 id="statistical-analysis">Statistical Analysis</h3>
+
+<ul>
+  <li>Deconvolution results</li>
+</ul>
+
+<div style="text-align: center;">
+  <img src="image/emotion/1719005527937.png" alt="1719005527937" style="zoom:30%;" />
+</div>
+<ul>
+  <li>Boxplots for different emotions</li>
+</ul>
+
+<div style="text-align: center;">
+  <img src="image/emotion/1719005716983.png" alt="1719005716983" style="zoom:30%;" />
+   <img src="image/emotion/1719005915192.png" alt="1719005915192" style="zoom:30%;" />
+ </div>
+
+<ul>
+  <li>L-Norm</li>
+</ul>
+
+<div style="text-align: center;">
+  <img src="image/emotion/1719006125480.png" alt="1719006125480" style="zoom:30%;" />
+</div>
+<h3 id="conclusion">Conclusion</h3>
+
+<p>1) High θ1 and θ2 and highest L0, L1, L2 norm ⇒ Anger</p>
+
+<p>2) High θ1 and θ2 and lowest L0, L1, L2 norm ⇒ Hate</p>
+
+<p>3) Lowest θ1 and θ2 ⇒ No emotion</p>
+
+<p>For the remaining emotions (Grief, Platonic Love, Romantic Love, Joy, Reverence):</p>
+
+<p>1) High θ1 and θ2 and highest L0, L1, L2 norm ⇒ Joy</p>
+
+<p>2) Low θ1 and θ2 and Lowest L0, L1, L2 norm ⇒ Reverence</p>
+
+<p>3) Grief, Platonic Love, Romantic Love, and Reverence are morechallenging to distinguish, which is consistent with the P-values</p>
 
       </div>
     </main>
