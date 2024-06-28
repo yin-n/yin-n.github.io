@@ -1,24 +1,54 @@
 ---
 layout: post
 category: projects
+title: Job search Website
 ---
-Job search:
+- [Intro](#intro)
 
-- [Table of contents](#table-of-contents)
-- [The start](#the-start)
-- [The middle](#the-middle)
-- [The end](#the-end)
+- [ETL](#etl)
 
-Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Nunc a egestas tortor, sed feugiat leo. Vestibulum porta tincidunt tellus, vitae ornare tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed nunc neque, tempor in iaculis non, faucibus et metus. Etiam id nisl ut lorem gravida euismod.
+- [Job Search](#job-search)
 
-## [The start](#the-start)
+- [Job Recommend](#job-recommend)
 
-Fusce non velit cursus ligula mattis convallis vel at metus. Sed pharetra tellus massa, non elementum eros vulputate non. Suspendisse potenti. Quisque arcu felis, laoreet vel accumsan sit amet, fermentum at nunc. Sed massa quam, auctor in eros quis, porttitor tincidunt orci. Nulla convallis id sapien ornare viverra. Cras nec est lacinia ligula porta tincidunt. Nam a est eget ligula pellentesque posuere. Maecenas quis enim ac risus accumsan scelerisque. Aliquam vitae libero sapien. Etiam convallis, metus nec suscipit condimentum, quam massa congue velit, sit amet sollicitudin nisi tortor a lectus. Cras a arcu enim. Suspendisse hendrerit euismod est ac gravida. Donec vitae elit tristique, suscipit eros at, aliquam augue. In ac faucibus dui. Sed tempor lacus tristique elit sagittis, vitae tempor massa convallis.
+- [Front End](#front-end)
 
-## [The middle](#the-middle)
+  
+## [Intro](#intro)
+- Scrapped 1000+ data from LinkedIn, Glassdoor, etc in Python using Scrapy and built ETL using Apache Airflow to integrate data daily
+- Implemented recommendations by scores and locations utilizing SparkDF, SparkSQL, and Haversine lib
+- Implemented recommendations by users' information using sentence transformer, Bert and SparkMLlib
+- Integrated real-time recommendation using Kafka to transfer data to SparkStreaming and save to Redis
+- Designed front-end user interface and data visualization interface in JavaScript using React, Flask, and Echarts
+- Realized fuzzy search using textblib lib, regular expression, and sorting by similarity
 
-Proin quis velit et eros auctor laoreet. Aenean eget nibh odio. Suspendisse mollis enim pretium, fermentum urna vitae, egestas purus. Donec convallis tincidunt purus, scelerisque fermentum eros sagittis vel. Aliquam ac aliquet risus, tempus iaculis est. Fusce molestie mauris non interdum hendrerit. Curabitur ullamcorper, eros vitae interdum volutpat, lacus magna lacinia turpis, at accumsan dui tortor vel lectus. Aenean risus massa, semper non lectus rutrum, facilisis imperdiet mi. Praesent sed quam quis purus auctor ornare et sed augue. Vestibulum non quam quis ligula luctus placerat sed sit amet erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce auctor, sem eu volutpat dignissim, turpis nibh malesuada arcu, in consequat elit mauris quis sem. Nam tristique sit amet enim vel accumsan. Sed id nibh commodo, dictum sem id, semper quam.
+## [ETL](#etl)
 
-## The end
+<div style="text-align: center;">
+  <img src="image/jobsearch/1719511439432.png" alt="1719511439432" style="zoom: 33%;"/>
+</div>
 
-Donec ex lectus, tempus non lacinia quis, pretium non ipsum. Praesent est nunc, rutrum vel tellus eu, tristique laoreet purus. In rutrum orci sit amet ex ornare, sit amet finibus lacus laoreet. Etiam ac facilisis purus, eget porttitor odio. Suspendisse tempus dolor nec risus sodales posuere. Proin dui dui, mollis a consectetur molestie, lobortis vitae tellus. Vivamus at purus sed urna sollicitudin mattis. Mauris lacinia libero in lobortis pulvinar. Nullam sit amet condimentum justo. Donec orci justo, pharetra ut dolor non, interdum finibus orci. Proin vitae ante a dui sodales commodo ac id elit. Nunc vel accumsan nunc, sit amet congue nunc. Aliquam in lacinia velit. Integer lobortis luctus eros, in fermentum metus aliquet a. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
+## [Job-Search](#job-search)
+
+
+<div style="text-align: center;">
+  <img src="image/jobsearch/1719511496976.png" alt="1719511496976" style="zoom: 33%;" />
+</div>
+
+## [Job Recommend](#job-recommend)
+<div style="text-align: center;">
+  <img src="image/jobsearch/1719511628895.png" alt="1719511628895" style="zoom:33%;" />
+</div>
+
+## [Front-End](#frontend)
+
+<div style="text-align: center;">
+  <img src="image/jobsearch/1719511734847.png" alt="1719511734847" style="zoom: 50%;" />
+</div>
+
+
+<div style="text-align: center;">
+    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" style="width:20px; vertical-align:middle;" />
+    <a href="https://github.com/PeiqiChen/BigData">Job Search Website</a>
+</div>
