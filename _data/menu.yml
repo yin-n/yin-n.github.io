@@ -9,22 +9,21 @@ entries:
         url: https://github.com/yin-n
       - title: "e-mail"
         url: mailto:yy4669@nyu.edu
-
-  - title: all internship
-    entries:
-      - title: ai-assist glass defects detect(apple)
-        url: apple
-      - title: real-time system(intel)
-        url: intel1
-      - title: ml indoor positioning system(intel)
-        url: intel2
-
   - title: all projects
     entries:
       - title: night2day vision enhance
         url: nigh2day
       - title: job search website
         url: jobsearch
+
+  - title: all internship
+    url: apple
+    entries:
+      - title: ai-assist glass defects detect(apple)
+      - title: real-time system(intel)
+      - title: ml indoor positioning system(intel)
+
+
 
       
   - title: research
