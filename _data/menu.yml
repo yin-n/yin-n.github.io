@@ -4,11 +4,12 @@
 entries:
   - title: info
     entries:
-      - title: nyu new grad, major in computer enigneering
+      - title: nyu grad, major in computer enigneering
       - title: github repo
         url: https://github.com/yin-n
       - title: "e-mail"
         url: mailto:yy4669@nyu.edu
+      - title: interests in machine learning applied in medical images, neuron science field
   - title: all projects
     entries:
       - title: night2day vision enhance
