@@ -32,7 +32,8 @@ entries:
         url: emotion
       - title: deep multual knowledge distill
         url: deep
+      - title: whole brain 3D cell segmentation
+        url: deep
 
-  - title: rss
-    url: feed.xml
+
   
