@@ -31,10 +31,10 @@ entries:
       - title: emotion calssifierrr
         url: emotion
       - title: deep multual knowledge distill
-        url: deep
+        url: /pages/deep
       - title: whole brain 3D cell segmentation
         url: https://github.com/yin-n/zencell
-        
+
 
 
   
