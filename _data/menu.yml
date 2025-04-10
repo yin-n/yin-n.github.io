@@ -12,12 +12,12 @@ entries:
   - title: all projects
     entries:
       - title: night2day vision enhance
-        url: nigh2day
+        url: /pages/nigh2day
       - title: job search website
         url: jobsearch
 
   - title: all internship
-    url: apple
+    url: /pages/apple
     entries:
       - title: ai-assist glass defects detect(apple)
       - title: real-time system(intel)
@@ -25,11 +25,10 @@ entries:
 
 
 
-      
   - title: research
     entries:
       - title: emotion calssifierrr
-        url: emotion
+        url: /pages/emotion
       - title: deep multual knowledge distill
         url: /pages/deep
       - title: whole brain 3D cell segmentation
