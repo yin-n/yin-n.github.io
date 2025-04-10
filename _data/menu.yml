@@ -33,7 +33,8 @@ entries:
       - title: deep multual knowledge distill
         url: deep
       - title: whole brain 3D cell segmentation
-        url: deep
+        url: https://github.com/yin-n/zencell
+        
 
 
   
