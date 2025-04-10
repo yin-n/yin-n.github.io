@@ -14,15 +14,14 @@ entries:
       - title: night2day vision enhance
         url: /pages/nigh2day
       - title: job search website
-        url: jobsearch
+        url: /pages/jobsearch
 
   - title: all internship
-    url: /pages/apple
+    url: /pages/internship
     entries:
       - title: ai-assist glass defects detect(apple)
       - title: real-time system(intel)
       - title: ml indoor positioning system(intel)
-
 
 
   - title: research
