@@ -9,7 +9,7 @@ entries:
         url: https://github.com/yin-n
       - title: "e-mail"
         url: mailto:yy4669@nyu.edu
-      - title: interests in machine learning applied in medical images, neuron science field
+      - title: interests in machine learning applied in medical images🩺, neuro science 🧠 field
   - title: all projects
     entries:
       - title: night2day vision enhance
@@ -31,7 +31,7 @@ entries:
         url: /pages/emotion
       - title: deep multual knowledge distill
         url: /pages/deep
-      - title: whole brain 3D cell segmentation
+      - title: whole brain 3D cell segmentation(MLE @Rockefeller University)
         url: https://github.com/yin-n/zencell
 
 
